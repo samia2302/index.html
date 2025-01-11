@@ -45,6 +45,15 @@
     padding: 25px;
     border-radius: 5px;
 }
+.quote{
+    background-image: url(quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: rgb(238, 233, 233);
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
 .recent{
     background-color: rgb(238, 233, 233);
     border-radius: 5px;
@@ -59,6 +68,9 @@
 }
 .picpic{
     margin-right: 20px;
+}
+.picpic img{
+    border-radius: 10px;
 }
 .more{
     background-color: green;
