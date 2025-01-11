@@ -45,6 +45,29 @@
     padding: 25px;
     border-radius: 5px;
 }
+.recent{
+    background-color: rgb(238, 233, 233);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.satellite{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.picpic{
+    margin-right: 20px;
+}
+.more{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 .donate{
     text-align: center;
     background-color: rgb(238, 233, 233);
