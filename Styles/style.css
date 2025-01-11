@@ -16,6 +16,7 @@
 }
 .two{
     opacity: 0.5;
+    font-size: large;
 }
 .idea{
     width: 68%;
@@ -28,10 +29,21 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 .explore:hover{
     background-color: white;
     color: green;
+}
+.vision{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.visionp{
+    opacity: 0.8;
+}
+.bangla{
+    opacity: 0.7;
 }
 .btn2{
     background-color: blue;
@@ -39,6 +51,7 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 .blue:hover{
    background-color: white;
@@ -77,7 +90,7 @@
 .quote{
     background-image: url(quote-bg.png);
     background-repeat: no-repeat;
-    background-color: rgb(238, 233, 233);
+    background-color: white;
     padding: 20px;
     margin-top: 40px;
     border-radius: 10px;
@@ -87,7 +100,6 @@
 .recent{
     background-color: rgb(238, 233, 233);
     border-radius: 10px;
-    padding: 20px;
     margin-top: 40px;
 }
 .satellite{
@@ -133,6 +145,7 @@
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .more:hover{
     background-color: white;
@@ -145,6 +158,9 @@
     margin-top: 40px;
     border-radius: 10px;
 }
+.today{
+    margin-bottom: 30px;
+}
 .tk{
     display: flex;
     justify-content: space-around;
@@ -154,6 +170,7 @@
     border-radius: 10px;
     padding: 5px 40px;
     background-color: white;
+    cursor: pointer;
 }
 .one:hover{
     background-color: rgb(101, 214, 101);
@@ -164,7 +181,7 @@
 .other{
     margin: 20px;
     border: none;
-    padding: 5px 500px;
+    padding: 5px 450px;
     border-radius: 10px;
 }
 .done{
@@ -173,6 +190,7 @@
     color: white;
     border-radius: 10px;
     padding: 12px 25px;
+    cursor: pointer;
 }
 .done:hover{
     background-color: white;
@@ -213,6 +231,7 @@
     padding: 10px 20px 10px 20px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;  
+    cursor: pointer;
 }
 .subs:hover{
     background-color: white;
@@ -220,4 +239,7 @@
 }
 .spam{
     opacity: 0.8;
+}
+.leg{
+    background-color: rgb(238, 233, 233);
 }
