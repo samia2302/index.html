@@ -1,3 +1,7 @@
+ .main{ 
+    width: 1300px;
+    margin: auto;
+}
  .head{ 
     width: 1300px;
     margin: auto;
@@ -24,10 +28,6 @@
     padding: 10px;
     border: none;
 }
-.second{
-    width: 1300px;
-    margin: auto;
-}
 .btn2{
     background-color: blue;
     color: white;
@@ -45,6 +45,38 @@
     padding: 25px;
     border-radius: 5px;
 }
+.donate{
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.tk{
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 5px;
+    padding: 5px 40px;
+    background-color: white;
+}
+.two{
+    background-color: rgb(126, 223, 126);
+}
+.input{
+    margin: 20px;
+    padding: 5px 160px 5px 160px;
+}
+.done{
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 25px;
+}
+
 .foot{
     width: 1300px;
     margin: auto;  
