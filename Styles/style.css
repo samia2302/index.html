@@ -1,8 +1,7 @@
-.main{ 
-    width: 1300px;
-    margin: auto;
+.body{
+    background-color: rgb(238, 233, 233);
 }
- .head{ 
+.head{ 
     width: 1300px;
     margin: auto;
 }
@@ -35,12 +34,26 @@
     background-color: white;
     color: green;
 }
+.main{ 
+    width: 1300px;
+    margin: auto;
+}
 .vision{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .visionp{
     opacity: 0.8;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: skyblue;
+    width: 360px;
+    padding: 25px;
+    border-radius: 10px;
 }
 .bangla{
     opacity: 0.7;
@@ -57,12 +70,18 @@
    background-color: white;
    color: blue;
 }
+.green{
+    background-color: rgb(140, 222, 140);
+}
 .btn3{
     background-color: green;
 }
 .btn3:hover{
     background-color: white;
     color: green;
+}
+.orange{
+    background-color: rgb(251, 224, 176);
 }
 .btn4{
     background-color: orange;
@@ -71,22 +90,6 @@
     background-color: white;
     color: orange;
 }
-.box{
-    display: flex;
-    justify-content: space-between;
-}
-.card{
-    background-color: skyblue;
-    width: 360px;
-    padding: 25px;
-    border-radius: 10px;
-}
-.green{
-    background-color: rgb(140, 222, 140);
-}
-.orange{
-    background-color: rgb(251, 224, 176);
-}
 .quote{
     background-image: url(quote-bg.png);
     background-repeat: no-repeat;
@@ -94,8 +97,13 @@
     padding: 20px;
     margin-top: 40px;
     border-radius: 10px;
-    background-position: 1% 8%;
-    
+    background-position: 1% 8%;   
+}
+.future{
+    opacity: 0.9;
+}
+.yunus{
+    opacity: 0.6;
 }
 .recent{
     background-color: rgb(238, 233, 233);
@@ -108,6 +116,22 @@
     padding: 20px;
     border-radius: 10px;
 }
+.picpic{
+    margin-right: 20px;
+}
+.picpic img{
+    border-radius: 10px;
+}
+.alja{
+    margin-bottom: 10px;
+}
+.date{
+    display: inline;
+}
+.time{
+    display: inline;
+    margin-left: 7px;
+}
 .sate{ 
     display: flex;
     background-color: white;
@@ -116,27 +140,11 @@
     flex-direction: row-reverse;
     margin-top: 15px;
 }
-.alja{
-    margin-bottom: 10px;
-}
-.picpic{
-    margin-right: 20px;
-}
 .picpics{
     margin-left: 20px;
 }
-.picpic img{
-    border-radius: 10px;
-}
 .picpics img{
     border-radius: 10px;
-}
-.time{
-    display: inline;
-}
-.date{
-    display: inline;
-    margin-left: 7px;
 }
 .more{
     background-color: green;
@@ -239,7 +247,4 @@
 }
 .spam{
     opacity: 0.8;
-}
-.leg{
-    background-color: rgb(238, 233, 233);
 }
