@@ -1,0 +1,83 @@
+ .head{ 
+    width: 1300px;
+    margin: auto;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(126, 223, 126);
+    padding: 20px 60px 20px 80px;  
+}
+.two{
+    opacity: 0.5;
+}
+.idea{
+    width: 68%;
+    font-size: 45px;
+}
+.explore{
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+}
+.second{
+    width: 1300px;
+    margin: auto;
+}
+.btn2{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: skyblue;
+    width: 360px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.foot{
+    width: 1300px;
+    margin: auto;  
+} 
+.last{
+    border-radius: 10px;
+    background-color: rgb(126, 223, 126);
+    padding: 20px 60px 20px 80px;  
+    text-align: center;
+    margin-top: 40px;
+}
+.news{
+    font-size: 30px;
+}
+.line{
+    opacity: 0.8;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: none;
+    padding: 10px 100px 10px 20px;
+    border-radius: 5px;
+}
+.subs{
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+.spam{
+    opacity: 0.8;
+}
